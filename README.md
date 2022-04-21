@@ -6,10 +6,13 @@
 In this repository, you should find two files: 'bankerAlg.cpp' and 'inputMatrices.txt'.
 
 Inside of the inputMatrices.txt there contains three matrices with the corresponding values from the example in the assignment description.
+
 It is important to note that bankerAlg.cpp will read in the allocation (5X3) matrix first, the maximum (5X3) matrix second and the available (1X3) matrix last.
+
 This order is crucial to remember when altering the input numbers. 
 
 DO NOT add any additional integers or strings to the txt. This may crash the file I/O.
+
 If you wish to test your own data set replace matrix integers with the matrix integers you wish to test.
 
 ----------------------------------------------------------------------------------------------
@@ -39,6 +42,9 @@ If the sequence is safe, the order of processes is stored in its own array: 'seq
 To compile and run this program, download the above two files into a terminal directory of your choice and run these commands:
 
 g++ -o bankerAlg bankerAlg.cpp
+
 ./bankerAlg
 
+----------------------------------------------------------------------------------------------
 
+There are a couple of .png files that show what terminal results should look like in the case that the sequence is safe or that it is unsafe
