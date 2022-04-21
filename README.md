@@ -48,3 +48,7 @@ g++ -o bankerAlg bankerAlg.cpp
 ----------------------------------------------------------------------------------------------
 
 There are a couple of .png files that show what terminal results should look like in the case that the sequence is safe or that it is unsafe
+
+The Given Example is an example of a safe sequence, so the program will output that the correct sequence order will be P1, P3, P4, P0, P2
+
+If you were to initialize the Available matrix to {0, 0, 0} (no available resource), the sequence would then be unsafe because no process would be able to receive their requested resources.
